@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">001238fd-62b6-448e-ab44-58bc6c9d1f40</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">001238fd-62b6-448e-ab44-58bc6c9d1f40</dc:identifier>
+        <dc:title>NET Bible 2.1 (noteless)</dc:title>
+        <dc:creator opf:file-as="Press, Biblical Studies" opf:role="aut">Biblical Studies Press</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (6.1.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2019-10-02T06:00:00+00:00</dc:date>
+        <dc:publisher>Biblical Studies Press</dc:publisher>
+        <dc:rights>Copyright 1996-2017, Biblical Studies Press</dc:rights>
+        <dc:language>en</dc:language>
+        <meta name="calibre:author_link_map" content="{}"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>

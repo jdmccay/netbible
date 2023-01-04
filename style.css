@@ -1,3 +1,62 @@
+.button-menu {
+  background-color: #ffffff;
+  color: black;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 50%;
+  height: 100%;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow: scroll;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@page {
+    margin-bottom: 5pt;
+    margin-top: 5pt
+    }
+@font-face {
+    font-family: "Galatia SIL";
+    src: url(OEBPS/GalSILR.ttf)
+    }
+@font-face {
+    font-family: "Ezra SIL";
+    src: url(OEBPS/SILEOT.ttf)
+    }
+@font-face {
+    font-family: "Charis SIL";
+    src: url(OEBPS/CharisSILI.ttf)
+    }
+@font-face {
+    font-family: "Galaxie Gothic";
+    src: url(OEBPS/GalaxieGothic.ttf)
+    }
+@font-face {
+    font-family: "Greek Uncials";
+    src: url(OEBPS/Uncials.ttf)
+    }
+
 .bodytext {
     display: block;
     margin-bottom: 3pt;
@@ -179,31 +238,6 @@
     }
 .smcaps {
     font-variant: small-caps
-    }
-
-@page {
-    margin-bottom: 5pt;
-    margin-top: 5pt
-    }
-@font-face {
-    font-family: "Galatia SIL";
-    src: url(OEBPS/GalSILR.ttf)
-    }
-@font-face {
-    font-family: "Ezra SIL";
-    src: url(OEBPS/SILEOT.ttf)
-    }
-@font-face {
-    font-family: "Charis SIL";
-    src: url(OEBPS/CharisSILI.ttf)
-    }
-@font-face {
-    font-family: "Galaxie Gothic";
-    src: url(OEBPS/GalaxieGothic.ttf)
-    }
-@font-face {
-    font-family: "Greek Uncials";
-    src: url(OEBPS/Uncials.ttf)
     }
 
 @page {
